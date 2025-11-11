@@ -14,7 +14,7 @@ if (!isset($_SESSION['username'])) {
     <title>Dashboard</title>
 </head>
 <body>
-    <h2>Selamat datang, <?php echo $_SESSION['username']; ?>!</h2>
+    <!--h2>Selamat datang, <?php echo $_SESSION['username']; ?>!</h2> -->
     <?php
     echo "<h2>Selamat datang," . $_SESSION['username'] . "!</h2>";
     ?>
